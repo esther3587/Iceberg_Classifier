@@ -10,3 +10,14 @@ Statoil, an international energy company operating worldwide, has worked closely
 
 In this competition, you’re challenged to build an algorithm that automatically identifies if a remotely sensed target is a ship or iceberg. Improvements made will help drive the costs down for maintaining safe working conditions.
 
+## Keras with Tensorflow backend
+
+For this project I use keras package for easy stacking several CNN layers in my training model. I used 4 convolutional layers with maxpooling and dropout, 2 dense layers, 1 flatten layer, and 1 sigmoid layer. Here I use Adam Optimizer and binary_crossentropy loss.
+
+## Required package ##
+
+- keras
+- numpy
+- pandas
+- h5py
+- sklearn
