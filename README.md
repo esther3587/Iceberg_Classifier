@@ -27,6 +27,9 @@ We create a third channel information by combining band_1 and band_2 data, and o
 
 For this project I use keras package for easy stacking several CNN layers in my training model. I used 4 convolutional layers with maxpooling and dropout, 2 dense layers, 1 flatten layer, and 1 sigmoid layer. Here I use Adam Optimizer and binary_crossentropy loss.
 
+## Ensemble Learning
+
+I stacked 5 different models and take median value as my final prediction. The logloss improves from 0.18 to 0.16. So far, top 26% on Kaggle LB.
 
 ## Required Package ##
 
